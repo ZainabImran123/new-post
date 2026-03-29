@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container-fluid">
+        </div>
+    </nav>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <div class="card p-4 shadow">
+                    <h4 class="text-center mb-4" style="color: #ab47bc;">Login Page</h4>
+
+                    <form id="loginForm">
+                        <div class="mb-3">
+                            <label class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label">Password</label>
+                            <input type="password" class="form-control" id="password" required>
+
+                            <div class="d-grid">
+                                <button type="button" onclick="login()" class="btn btn-primary btn-lg">
+                                    Login
+                                </button>
+                            </div>
+                    </form>
+
+                    <p class="text-center mt-3">
+                        <a href="post.html" style="color: #ab47bc;"></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="login.js"></script>
+</body>
+
+</html>
