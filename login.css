@@ -1,76 +1,81 @@
 /* Reset */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
 }
 
-/* Body */
-body {
-    font-family: Arial, sans-serif;
-    background: #f4f6f9;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+/* Background */
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f4f6f9;
 }
 
 /* Card */
 .card {
-    width: 100%;
-    max-width: 350px;
-    padding: 25px;
-    border-radius: 10px;
-    border: none;
-    background: #fff;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
 /* Heading */
-h4 {
-    text-align: center;
-    margin-bottom: 20px;
-    color: #333;
-}
-
-/* Labels */
-.form-label {
-    font-size: 14px;
-    margin-bottom: 5px;
+.card h2 {
+  margin-bottom: 20px;
+  color: #333;
 }
 
 /* Inputs */
-.form-control {
-    border-radius: 6px;
-    border: 1px solid #ccc;
-    padding: 10px;
-    font-size: 14px;
+.card input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
 }
 
-.form-control:focus {
-    border-color: #4b6cb7;
-    box-shadow: none;
+.card input:focus {
+  border-color: #4a90e2;
 }
 
 /* Button */
-.btn-primary {
-    background-color: #4b6cb7;
-    border: none;
-    border-radius: 6px;
-    padding: 10px;
-    font-weight: 500;
+.card button {
+  width: 100%;
+  padding: 10px;
+  background: #4a90e2;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
 }
 
-.btn-primary:hover {
-    background-color: #3a56a0;
+.card button:hover {
+  background: #357bd8;
 }
 
 /* Link */
-a {
-    font-size: 14px;
-    color: #4b6cb7;
-    text-decoration: none;
+.card p {
+  margin-top: 10px;
 }
 
-a:hover {
-    text-decoration: underline;
+.card a {
+  text-decoration: none;
+  color: #4a90e2;
+  font-size: 14px;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: url("https://images.unsplash.com/photo-1506744038136-46273834b3fb") no-repeat center/cover;
+  position: relative;
 }
