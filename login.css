@@ -1,12 +1,10 @@
-/* Reset */
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
 }
 
-/* Background */
 .container {
   height: 100vh;
   display: flex;
@@ -15,7 +13,6 @@
   background: #f4f6f9;
 }
 
-/* Card */
 .card {
   background: white;
   padding: 25px;
@@ -25,13 +22,11 @@
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
-/* Heading */
 .card h2 {
   margin-bottom: 20px;
   color: #333;
 }
 
-/* Inputs */
 .card input {
   width: 100%;
   padding: 10px;
@@ -45,7 +40,6 @@
   border-color: #4a90e2;
 }
 
-/* Button */
 .card button {
   width: 100%;
   padding: 10px;
@@ -60,7 +54,6 @@
   background: #357bd8;
 }
 
-/* Link */
 .card p {
   margin-top: 10px;
 }
@@ -78,4 +71,72 @@
 
   background: url("https://images.unsplash.com/photo-1506744038136-46273834b3fb") no-repeat center/cover;
   position: relative;
+} */
+
+body {
+  font-family: Arial, sans-serif;
+  background: url("https://img.freepik.com/free-vector/background-watercolor-floral-with-soft-colors_52683-28912.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 350px;
+}
+
+.form-box {
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.form input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background: #667eea;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #5a67d8;
+}
+
+p {
+  margin-top: 10px;
+}
+
+span {
+  color: #667eea;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+span:hover {
+  text-decoration: underline;
+}
+
+.hidden {
+  display: none;
 }
